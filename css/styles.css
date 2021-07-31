@@ -112,12 +112,6 @@ p:nth-child(2){
     text-align: center;
     background-color: #fff;
 }
-.foot{
-    margin: 0 550px 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 #footer p{
     font-size: 1rem;
     color: grey;
