@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.navbar{
+    padding: 40px 0px;
+}
+.nav-item{
+    padding: 20px;
+}
+#title{
+    background-color: #ff4c68;
+}
+#title a{
+    color: white;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+@media (max-width:900px) {
+    .title-img{
+        padding: 30px;
+        position:static;
+        transform: rotate(360deg);
+    }
+}
+hr{
+    border-top: 2px solid black;
+}
+.row h1{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#features{
+    background-color: white;
+    padding:200px 200px;
+    position: relative;
+    z-index: 1;
+}
+.item{
+    text-align: center;
+}
+.item h3{
+    padding-top: 15px;
+}
+.icon{
+    color: #ff4c68;
+}
+.icon:hover{
+    color: #ef8172;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+}
+em{
+    display: block;
+    font-size: 1.5rem;
+}
+.testimonial-text{
+    color: white;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.testimonial-image{
+    border-radius: 100%;
+}
+#press{
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #ff4c68;
+}
+.pimage{
+    padding: 10px;
+    width: 300px;
+}
+#pricing{
+    text-align: center;
+}
+p:nth-child(2){
+    font-size: 2rem;
+}
+.carousel-item{
+    padding: 100px 200px;
+}
+.list-unstyled{
+    height: 80px;
+}
+.col{
+    margin:0px 50px;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 50px;
+}
+#cta h3{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+#cta button{
+    margin:50px 20px 100px 20px;
+}
+#footer{
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+.foot{
+    margin: 0 550px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer p{
+    font-size: 1rem;
+    color: grey;
+}
