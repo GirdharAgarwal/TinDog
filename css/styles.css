@@ -3,7 +3,7 @@
     padding: 40px 0px;
 }
 .nav-item{
-    padding: 20px;
+    padding-left: 20%;
 }
 #title{
     background-color: #ff4c68;
@@ -19,9 +19,17 @@
 }
 @media (max-width:900px) {
     .title-img{
-        padding: 30px;
+        padding: 0;
         position:static;
         transform: rotate(360deg);
+    }
+    .testimonial-text{
+        font-size: 1.5rem;
+    }
+    .testimonial-image{
+        width: 70%;
+        display: block;
+        margin: auto;
     }
 }
 hr{
@@ -34,7 +42,7 @@ hr{
 }
 #features{
     background-color: white;
-    padding:200px 200px;
+    padding:11% 11%;
     position: relative;
     z-index: 1;
 }
@@ -74,8 +82,8 @@ em{
     background-color: #ff4c68;
 }
 .pimage{
-    padding: 10px;
-    width: 300px;
+    padding: 1%;
+    width: 20%;
 }
 #pricing{
     text-align: center;
@@ -84,18 +92,18 @@ p:nth-child(2){
     font-size: 2rem;
 }
 .carousel-item{
-    padding: 100px 200px;
+    padding: 8% 15%;
 }
 .list-unstyled{
     height: 80px;
 }
 .col{
-    margin:0px 50px;
+    margin: 2%;
 }
 #cta{
     background-color: #ff4c68;
     text-align: center;
-    padding: 50px;
+    padding: 50px 1%;
 }
 #cta h3{
     font-size: 4rem;
@@ -105,10 +113,10 @@ p:nth-child(2){
     font-family: 'Staatliches', cursive;
 }
 #cta button{
-    margin:50px 20px 100px 20px;
+    margin:50px 1% 100px 1%;
 }
 #footer{
-    padding: 100px;
+    padding: 100px 0px;
     text-align: center;
     background-color: #fff;
 }
